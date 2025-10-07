@@ -160,7 +160,7 @@ button:hover {
 }
 
 /* --- Ajuste del menú en pantallas pequeñas --- */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   nav ul {
     justify-content: space-around; /* distribuye los items equitativamente */
     gap: 5px; /* menos espacio entre ellos */
