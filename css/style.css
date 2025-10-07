@@ -158,3 +158,17 @@ button:hover {
     width: 90%;
   }
 }
+
+/* --- Ajuste del menú en pantallas pequeñas --- */
+@media (max-width: 768px) {
+  nav ul {
+    justify-content: space-around; /* distribuye los items equitativamente */
+    gap: 5px; /* menos espacio entre ellos */
+    padding: 5px; /* reduce el padding general */
+  }
+
+  nav ul li a {
+    font-size: 14px; /* texto un poco más chico para que entren los 4 */
+  }
+}
+
